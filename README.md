@@ -1,4 +1,4 @@
-![Mastering GitHub Copilot for .NET / C# Developers](./images/GitHub 101 - Curriculum dotnet.png)
+![Mastering GitHub Copilot for .NET / C# Developers](./images/GitHub%20101%20-%20Curriculum%20dotnet.png)
 
 # Mastering GitHub Copilot for C#/.NET Developers
 Learn how to master GitHub Copilot with our 6-lesson course designed for C#/.NET developers. Learn how to integrate GitHub Copilot seamlessly into your workflow, automate testing, and enhance collaboration using Visual Studio Code and Copilot Chat. From autocompletion to unit testing, this course covers it all—helping you write cleaner, faster code with AI-driven assistance.
