@@ -27,7 +27,7 @@ Completion of [Module 1 - Getting Started to use GitHub Copilot for Azure](https
 
 > If you closed the GitHub Copilot Chat after the last Module, click the GitHub icon in the status bar.  Bottom-right of your VS Code screen. And select **"GitHub Copilot Chat"** in the option menu.
 >
-> ![Screenshot that shows the GitHub Copilot chat pane](./images/dotnet-mastering-github-copilot-for-paired-programming/blob/main/images/mod2-CopilotChat-2.png "Start a new chat session")
+> ![Screenshot that shows the GitHub Copilot chat pane](./images/mod2-CopilotChat-2.png "Start a new chat session")
 
 6. In the chat text box, type the following prompt. Then select **Send** (paper airplane icon) or select Enter on your keyboard.
 
