@@ -116,7 +116,7 @@ The exact wording of the response is different each time GitHub Copilot for Azur
 
     1. When asked the location select **Canada East (canadaeast)**.
 
-    Depending on the `azd` template that you're deploying and the location that you selected, the template might take 10 minutes (or more) to deploy. But we can Move on to [Module 3](https://github.com/jamesmontemagno/dotnet-mastering-github-copilot-for-paired-programming/blob/main/06-Using-GitHub-Copilot-for-Azure-to-Deploy-to-Cloud/03-Get-Answers-to-your-Questions-about-Azure-Services-and-Resources.md) while it completes
+    Depending on the `azd` template that you're deploying and the location that you selected, the template might take 10 minutes (or more) to deploy. But we can Move on to [Module 3](./03-Get-Answers-to-your-Questions-about-Azure-Services-and-Resources.md) while it completes
 
 1. If `azd up` experiences an error, ask GitHub Copilot for Azure about the error and how you can resolve it.
 
