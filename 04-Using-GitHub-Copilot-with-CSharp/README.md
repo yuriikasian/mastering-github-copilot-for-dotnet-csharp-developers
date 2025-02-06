@@ -49,15 +49,15 @@ We will review the steps to update the Weather BackEnd App by adding a new endpo
 
 Once you open the repository in Codespaces, you will find a new browser window with a fully functional Codespace. Everything in this repository is contained within this one Codespace. In example, in the explorer panel, we can see the main code for the BackEnd and the FrontEnd project.
 
-![new Codespace with all the repository running](./005OpenRepoInCodeSpaces.png)
+![new Codespace with all the repository running](./images/005OpenRepoInCodeSpaces.png)
 
 In order to run the BackEnd project, go to the "Run and Debug" panel, and select the "BackEnd" Project.
 
-![open program.cs in the BackEnd project](./006RunBackEndProject.png)
+![open program.cs in the BackEnd project](./images/006RunBackEndProject.png)
 
 Start Debugging the selected project. The Weather API project, our BackEnd project will now be running in port 8080. We can copy the published url from the *Ports* panel
 
-![Copy app url from the ports panel](./007ProjectRunningOpenInNewTab.png)
+![Copy app url from the ports panel](./images/007ProjectRunningOpenInNewTab.png)
 
 > Note: When you run the application you will see "This page isn't working" error message. That is because we need to navigate to the endpoint, which is detailed below.
 
@@ -68,17 +68,17 @@ https://< your url>.app.github.dev/weatherforecast
 ```
 The running application in a browser should be like this one.
 
-![test the running application.](./008TestRunningApi.png)
+![test the running application.](./images/008TestRunningApi.png)
 
 Now let's add a break point into our application, to debug each call to the API. Go to the `Program.cs` file in the BackEnd project. The file is in the following path `SampleApp\BackEnd\Program.cs`. 
 
 Add a breakpoint in line 24 (press F9) and refresh the browser with the Url to test the endpoint. The browser should not show the weather forecast, and in the Visual Studio Editor we can see how the program execution was paused at line 24.
 
-![debug the running application.](./009DebugBackEndDemo.png)
+![debug the running application.](./images/009DebugBackEndDemo.png)
 
 Pressing F10 we can debug step-by-step until line 32, where we can see the generated values. The application should have been generated samples Weather values for the next 5 days. The variable `forecast` has an array containing these values.
 
-![debug the running application.](./010DebugForecastValue.png)
+![debug the running application.](./images/010DebugForecastValue.png)
 
 You can stop debugging now.
 
@@ -93,7 +93,7 @@ Open the file `Program.cs` in the BackEnd project. The file is in the following 
 
 Now let's use a slash command, in GitHub Copilot to understand a piece of code. Select lines 22-35, press `CTRL + I` to open the inline chat, and type `/explain`.
 
-![Use slash command to explain a piece of code](./011SlashCommandExplain.gif)
+![Use slash command to explain a piece of code](./images/011SlashCommandExplain.gif)
 
 
 Based on your version of GitHub Copilot you will see either an inline response or an update in the Chat Panel. GitHub Copilot will create a detailed explanation of the selected code. A summarized version will be like this one:
@@ -110,7 +110,7 @@ The selected C# code is part of an ASP.NET Core application using the minimal AP
 
 Let's use the `/tests` command to generate tests to the code. Select lines 39-42, press `CTRL + I` to open the inline chat, and type `/tests` (or select the /tests slash command) to generate a new set of tests for this record.
 
-![Use slash command to generate tests for the selected piece of code](./012SlashCmdTests.gif)
+![Use slash command to generate tests for the selected piece of code](./images/012SlashCmdTests.gif)
 
 At this point, GitHub Copilot will suggest a new class. You need to first press [Accept] to create the new file. 
 
@@ -120,7 +120,7 @@ A new class `ProgramTests.cs` was created and added to the project. This tests a
 
 Finally, let's use the `/doc` to generate automatic documentation to the code. Select lines 39-42, press `CTRL + I` to open the inline chat, and type `/doc` (or select the command) to generate the documentation for this record.
 
-![Use slash command to generate the documentation for a piece of code](./013SlashCmdDoc.gif)
+![Use slash command to generate the documentation for a piece of code](./images/013SlashCmdDoc.gif)
 
 Inline chat, the Chat Panel, and slash commands are part of the amazing tools that support our development experience with GitHub Copilot. Now we are ready to add new features to this App.
 
@@ -129,7 +129,7 @@ Inline chat, the Chat Panel, and slash commands are part of the amazing tools th
 
 Go to the `Program.cs` file in the BackEnd project. The file is in the following path `SampleApp\BackEnd\Program.cs`. 
 
-![open program.cs in the BackEnd project](./011OpenBackEndProject.png)
+![open program.cs in the BackEnd project](./images/011OpenBackEndProject.png)
 
 Navigate to the end of the file and ask Copilot to generate a new record that includes the name of the city.
 
@@ -149,7 +149,7 @@ internal record WeatherForecastByCity(string City, DateOnly Date, int Temperatur
 
 You can take a look at the prompt working in the next animation:
 
-![open program.cs in the BackEnd project](./014AddNewRecord.gif)
+![open program.cs in the BackEnd project](./images/014AddNewRecord.gif)
 
 ### 🔎 Step 4: Generate a new endpoint to get the weather forecast for a city
 
@@ -164,7 +164,7 @@ Next, generate a new endpoint with GitHub Copilot by adding the comment:
 ```
 In the following example, we added some extra blank lines after the previous endpoint and then GitHub Copilot generated the new endpoint. Once the Endpoint core code was generated, GitHub Copilot also suggested code for the name of the endpoint (line 49) and the OpenAPI specification (line 50). Remember to accept each one of these suggestions pressing [TAB].
 
-![Copilot ghost suggestion for the new endpoint](./020GeneratedCode.gif)
+![Copilot ghost suggestion for the new endpoint](./images/020GeneratedCode.gif)
 
 ***Important**: This prompt generates several lines of C# code. It's strongly adviced to check and review the generated code to verify that it works in the desired way.*
 
@@ -194,7 +194,7 @@ app.MapGet("/WeatherForecastByCity/{city}", (string city) =>
 Finally, verify the new endpoint is working by starting the project from the Run and Debug panel. 
 Select Run and Debug, and then select the BackEnd project.
 
-![Open Run and Debug panel and select BackEnd project](./030RunAndDebugTheBackEndProject.png)
+![Open Run and Debug panel and select BackEnd project](./images/030RunAndDebugTheBackEndProject.png)
 
 Now press Run and the project should build and run. Once the project is running, we can test the original Url using your Codespace url and the original endpoint:
 
@@ -213,7 +213,7 @@ https://< your code space url >.app.github.dev/WeatherForecastByCity/<AnyCityNam
 
 Both tests running should be like these ones:
 
-![Open Run and Debug panel and select BackEnd project](./032TestAndDebugUsingUrls.png)
+![Open Run and Debug panel and select BackEnd project](./images/032TestAndDebugUsingUrls.png)
 
 
 🚀 Congratulations, through the exercise, you haven't only used GitHub Copilot  to generate code but also done it in an interactive and fun way! You can use GitHub Copilot to not only generate code, but write documentation, test your applications and more.
