@@ -29,7 +29,7 @@ By the end of this module, you'll acquire the skills to be able to:
 
 ## 💪🏽 Exercise
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/jamesmontemagno/dotnet-mastering-github-copilot-for-paired-programming)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
 
 You have already learned a bit about GitHub Codespaces and GitHub Copilot and how they work. In this challenge exercise, your goal is to develop a minigame in C# using GitHub Copilot. 
 
