@@ -40,7 +40,7 @@ By the end of this module, you'll be able to:
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
 
-Now that you have learned a bit about GitHub Codespaces, lets take the next step and use Codespaces to learn how to use GitHub Copilot. Right-click **Open in GitHub Codespaces** and open the link in a new tab.
+Now that you've learned about GitHub Codespaces and GitHub Copilot, let's take the next step and use Codespaces to complete hands-on labs with GitHub Copilot. Right-click **Open in GitHub Codespaces** and open the link in a new tab.
 
    
 <footer>
