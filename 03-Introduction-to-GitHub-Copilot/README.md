@@ -42,6 +42,27 @@ By the end of this module, you'll be able to:
 
 Now that you've learned about GitHub Codespaces and GitHub Copilot, let's take the next step and use Codespaces to complete hands-on labs with GitHub Copilot. Right-click **Open in GitHub Codespaces** and open the link in a new tab.
 
+### 🗃️ Lessons
+|       |              Lesson Link              |                       Concepts Taught                       |                     Learning Goal                 |                             
+| :---: | :------------------------------------: | :---------------------------------------------------------: | ----------------------------------------------------------- |
+| 01 | [Leverage Codespaces with VS Code for Copilot](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers/blob/main/03-Introduction-to-GitHub-Copilot/.github/steps/1-copilot-extension.md) | Learn how to set up and enable GitHub Copilot within a Codespace using VS Code by configuring a development container and installing necessary extensions.|  This guide enable developers to leverage GitHub Codespaces and VS Code to integrate and utilize GitHub Copilot for AI-powered code suggestions efficiently.                    |
+| 02 | [Seeing AI code suggestions in a C# file!](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers/blob/main/03-Introduction-to-GitHub-Copilot/.github/steps/2-skills-dotnet.md) | Setting up a Codespace with GitHub Copilot, creating a C# project, using Copilot for code suggestions, and pushing code to a repository using Git. | Familiarize users with GitHub Copilot's AI-powered code suggestions in C# by creating a .NET project, generating code completions, and pushing changes to a repository using Git. | 
+| 03 | [View the GitHub Copilot tab with multiple suggestions](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers/blob/main/03-Introduction-to-GitHub-Copilot/.github/steps/3-copilot-hub.md) | Learn how to use GitHub Copilot for AI-powered code suggestions in C#, manage a Codespace, pull the latest code, create and edit files, review AI-generated code completions, and push changes to a Git repository using Git commands in VS Code. | Familiarize users with GitHub Copilot’s code suggestions, how to review and accept AI-generated completions, and how to manage code changes in a GitHub Codespace using Git commands. | 
+| 04 | [Using comments to generate code with Copilot](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers/blob/main/03-Introduction-to-GitHub-Copilot/.github/steps/4-copilot-comment.mdW) | Understand how to use GitHub Copilot to generate code from comments, navigating Copilot suggestions, and managing code versioning with Git commands in a Codespace environment. | Using comments to generate AI-suggested code with GitHub Copilot in VS Code | 
+
+## :books: Additional learning and resources
+
+- [What is GitHub Copilot](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot)
+- [About enterprise accounts for Copilot Business](https://docs.github.com/en/enterprise-cloud@latest/admin/copilot-business-only/about-enterprise-accounts-for-copilot-business)
+- [Getting started with Copilot](https://docs.github.com/en/copilot/getting-started-with-github-copilot/getting-started-with-github-copilot-in-visual-studio-code)
+- [Configure Copilot settings](https://docs.github.com/en/copilot/configuring-github-copilot/configuring-github-copilot-settings-on-githubcom)
+
+### What's next?
+
+- [We'd love to hear what you thought of this course](https://github.com/orgs/skills/discussions/categories/code-with-copilot).
+- [Learn another GitHub skill](https://github.com/skills).
+- [Read the Get started with GitHub docs](https://docs.github.com/en/get-started).
+- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
    
 <footer>
 
