@@ -1,27 +1,10 @@
-<!--
-  <<< Author notes: Step 3 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
--->
-
 ## Step 3: View the GitHub Copilot tab with multiple suggestions
 
 _Nice work! You just used AI code suggestions within a C# file by using GitHub Copilot :sparkles:_
 
 Keep in mind that as you continue to use copilot, you may not want some of the suggestions GitHub Copilot offers. GitHub Copilot will show you multiple suggestions in a new tab.
 
-### :keyboard: Activity: Pull the latest code to the Codespace repo.
-
-> **Note**
-> Pull MUST be done prior to the next activity.
-
-1. Use the VS Code terminal to pull the latest code:
-
-   ```
-   git pull
-   ```
-
-### :keyboard: Activity: Add another C# method and view all suggestions
+### ⌨️ Activity: Add another C# method and view all suggestions
 
 1. From inside the codespace in the Solution Explorer, right click on the project, create a new file. 
 
@@ -43,7 +26,7 @@ Keep in mind that as you continue to use copilot, you may not want some of the s
 7. Find a solution you like and click `Accept Solution`.
 8. Your `Member.cs` file will be updated with your solution.
 
-### :keyboard: Activity: Push code to your repository from the codespace
+### ⌨️ Activity: Push code to your repository from the codespace
 
 1. Use the VS Code terminal to add the `Member.cs` file to the repository:
 
@@ -63,4 +46,5 @@ Keep in mind that as you continue to use copilot, you may not want some of the s
    git push
    ```
 
-**Wait about 60 seconds then refresh your repository landing page for the next step.**
+
+Head to [Part 4 of the Exercise](./4-copilot-comment.md)

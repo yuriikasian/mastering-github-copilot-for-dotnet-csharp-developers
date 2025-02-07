@@ -1,9 +1,3 @@
-<!--
-  <<< Author notes: Step 4 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
--->
-
 ## Step 4: Using comments to generate code with Copilot
 
 _Nicely done utilizing the Copilot tab!_ :partying_face:
@@ -12,18 +6,7 @@ You now have leveraged the Copilot quick tab auto-suggest as well as the Copilot
 
 Now lets see how you can leverage comments to generate Copilot suggestions!
 
-### :keyboard: Activity: Pull the latest code to the Codespace repo.
-
-> **Note**
-> Pull MUST be done prior to the next activity.
-
-1. Use the VS Code terminal to pull the latest code:
-
-   ```
-   git pull
-   ```
-
-### :keyboard: Activity: Generate Copilot suggested code from comments.
+### ⌨️ Activity: Generate Copilot suggested code from comments.
 
 1. From inside the codespace in the Solution Explorer, right click on the project, create a new file. 
 
@@ -46,7 +29,7 @@ Now lets see how you can leverage comments to generate Copilot suggestions!
 8. Find a solution you like and click `Accept Solution`.
 9. Your `Comments.cs` file will be updated with your solution.
 
-### :keyboard: Activity: Push code to your repository from the codespace
+### ⌨️ Activity: Push code to your repository from the codespace
 
 1. Use the VS Code terminal to add the `Comments.cs` file to the repository:
 

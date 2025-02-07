@@ -1,9 +1,3 @@
-<!--
-  <<< Author notes: Step 2 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
--->
-
 ## Step 2: Seeing AI code suggestions in a C# file!
 
 _Nice work! :tada: You created a Codespace using a devcontainer file that installed Copilot!_
@@ -12,7 +6,7 @@ GitHub Copilot provides suggestions for numerous languages and a wide variety of
 
 Let's try this out utilizing C# for Copilot.
 
-### :keyboard: Activity: Add a C# file and start writing code
+### ⌨️ Activity: Add a C# file and start writing code
 
 > **Note**:
 > If you closed the Codespace from above, please open it back up or create a new Codespace.
@@ -34,7 +28,7 @@ Let's try this out utilizing C# for Copilot.
 
 5. Press `Tab` to accept the suggestion.
 
-### :keyboard: Activity: Push code to your repository from the codespace
+### ⌨️ Activity: Push code to your repository from the codespace
 
 1. Use the VS Code terminal to add all files to the repository:
 
@@ -54,4 +48,5 @@ Let's try this out utilizing C# for Copilot.
    git push
    ```
 
-**Wait about 60 seconds then refresh your repository landing page for the next step.**
+
+Head to [Part 3 of the Exercise](./3-copilot-hub.md)
