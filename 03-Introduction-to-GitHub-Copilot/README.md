@@ -50,6 +50,7 @@ Now that you've learned about GitHub Codespaces and GitHub Copilot, let's take t
 | 03 | [View the GitHub Copilot tab with multiple suggestions](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers/blob/main/03-Introduction-to-GitHub-Copilot/.github/steps/3-copilot-hub.md) | Learn how to use GitHub Copilot for AI-powered code suggestions in C#, manage a Codespace, pull the latest code, create and edit files, review AI-generated code completions, and push changes to a Git repository using Git commands in VS Code. | Familiarize users with GitHub Copilot’s code suggestions, how to review and accept AI-generated completions, and how to manage code changes in a GitHub Codespace using Git commands. | 
 | 04 | [Using comments to generate code with Copilot](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers/blob/main/03-Introduction-to-GitHub-Copilot/.github/steps/4-copilot-comment.md) | Understand how to use GitHub Copilot to generate code from comments, navigating Copilot suggestions, and managing code versioning with Git commands in a Codespace environment. | Using comments to generate AI-suggested code with GitHub Copilot in VS Code | 
 
+
 ## :books: Additional learning and resources
 
 - [What is GitHub Copilot](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot)
