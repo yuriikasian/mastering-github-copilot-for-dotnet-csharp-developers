@@ -15,7 +15,6 @@
       "vscode": {
       "extensions": [
         "github.copilot",
-        "ms-vscode.azure-account",
         "ms-azuretools.vscode-azure-github-copilot",
         "ms-dotnettools.csdevkit"
       ]}
