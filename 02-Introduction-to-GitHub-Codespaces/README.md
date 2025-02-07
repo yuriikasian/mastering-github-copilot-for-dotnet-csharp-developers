@@ -16,7 +16,7 @@ Picture a fully configured development setup, ready to use and accessible from a
 - **What you'll build**: A codespace with devcontainer.json files, customizations, and personalizations.
 - **Prerequisites**: You'll need to know the following:
   - Use of Visual Studio Code, [Visual Studio Code Docs](https://code.visualstudio.com/docs).
-  - Understanding of GitHub use or completion of the previous module [Introduction to GitHub](https://github.com/jamesmontemagno/dotnet-mastering-github-copilot-for-paired-programming/blob/main/01-Introduction-to-GitHub/README.md).
+  - Understanding of GitHub use or completion of the previous module [Introduction to GitHub](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers/blob/main/01-Introduction-to-GitHub/README.md).
 - **Timing**: This course can be completed in less than an hour.
 
 By the end of this module, you'll be able to:
