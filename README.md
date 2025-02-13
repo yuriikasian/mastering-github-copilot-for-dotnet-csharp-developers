@@ -74,6 +74,23 @@ Check out more .NET courses on Microsoft Learn Training on:
 * [Entity Framework Core for Beginners](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oX7uTkjYwvCJDG2qhcSzwZ6)
 * [.NET on Azure for Beginners](https://www.youtube.com/playlist?list=PLdo4fOcmZ0oVSBX3Lde8owu6dSgZLIXfu)
 
+###  Additional Learning 
+
+Our team produces other courses! Check out:
+
+- [Generative AI for Beginners](https://aka.ms/genai-beginners)
+- [Generative AI for Beginners .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)
+- [Generative AI with JavaScript](https://github.com/microsoft/generative-ai-with-javascript)
+- [AI for Beginners](https://aka.ms/ai-beginners)
+- [Data Science for Beginners](https://aka.ms/datascience-beginners)
+- [ML for Beginners](https://aka.ms/ml-beginners)
+- [Cybersecurity for Beginners](https://github.com/microsoft/Security-101) 
+- [Web Dev for Beginners](https://aka.ms/webdev-beginners)
+- [IoT for Beginners](https://aka.ms/iot-beginners)
+- [XR Development for Beginners](https://github.com/microsoft/xr-development-for-beginners)
+- [Mastering GitHub Copilot for C#/.NET Developers](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
+- [Choose Your Own Copilot Adventure](https://github.com/microsoft/CopilotAdventures)
+
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
