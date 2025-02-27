@@ -15,11 +15,13 @@ Using Copilot inside a Codespace shows just how easy it is to get up and running
 
 ### ⌨️ Activity: Enable Copilot inside a Codespace
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?devcontainer_path=.devcontainer%2Fintroduction%2Fdevcontainer.json)
+
 **We recommend opening another browser tab to work through the following activities so you can keep these instructions open for reference.**
 
 Before you open up a codespace on a repository, you can create a development container and define specific extensions or configurations that will be used or installed in your codespace. Let's create this development container and add copilot to the list of extensions.
 
-1. In the body of the **.devcontainer/introduction/devcontainer.json** file, add the following content:
+1. Note in the body of the **.devcontainer/introduction/devcontainer.json** file, the following content:
    ```
    {
        // Name this configuration
@@ -34,10 +36,8 @@ Before you open up a codespace on a repository, you can create a development con
        }
    }
    ```
-1. Select the option to **Commit directly to the `main` branch**, and then click the **Commit** button.
-1. Reload the codespace
 
-If you run into issues you can create a new codespace:
+If you run into issues at any time you can create a new codespace:
 
 1. Navigate back to the home page of your repository by clicking the **Code** tab located at the top left of the screen.
 1. Click the **Code** button located in the middle of the page.

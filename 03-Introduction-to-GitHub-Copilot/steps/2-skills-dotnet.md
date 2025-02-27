@@ -12,7 +12,7 @@ Let's try this out utilizing C# for Copilot.
 > If you closed the Codespace from above, please open it back up or create a new Codespace.
 
 1. Create a new .NET project by using the `.NET: New Project...` command and selecting `Console App`. 
-1. Select a folder and name the project **Skills**.
+1. Select the **code** folder and name the project **Skills**.
 1. Open `Program.cs`
 1. Verify your new file looks like:
    ![VS code with a new Program.cs](./img/2-skills-dotnet-0.png)
