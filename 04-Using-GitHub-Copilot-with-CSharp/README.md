@@ -45,11 +45,27 @@ The "**GitHub Codespaces ♥️ .NET**" repository builds a Weather API using Mi
 We will review the steps to update the Weather BackEnd App by adding a new endpoint that requests a specific location and returns the weather forecast for that location.
 
 
-### 🗒️ Step 1: Get familiarized with the "GitHub Codespaces ♥️ .NET" repository
+### 🤔 Step 0: Get familiarized with the "GitHub Codespaces ♥️ .NET" repository
 
 Once you open the repository in Codespaces, you will find a new browser window with a fully functional Codespace. Everything in this repository is contained within this one Codespace. In example, in the explorer panel, we can see the main code for the BackEnd and the FrontEnd project.
 
 ![new Codespace with all the repository running](./images/005OpenRepoInCodeSpaces.png)
+
+Before we run the project, let's use GitHub Copilot Chat to inquire about what the project is and the different components.
+
+1. Open **GitHub Copilot Chat** from the main navigation bar. 
+1. Type in `What is this project doing, and what are the key components?` and hit **Send***
+
+GitHub Copilot Chat will now look at the entire project and give us a summary of what the projects do, what technology they use, and any of the key components in them.
+
+![Copilot Chat describing the project](./images/004AskCopilotAboutProject.png)
+
+From here, you can click on files to navigate to them and you can ask follow up questions such as `What APIs are available?`.
+
+
+### 🚀 Step 1: Run the projects
+
+Now that we have have context of what is in the project, let's run it and see it in action.
 
 In order to run the BackEnd project, go to the "Run and Debug" panel, and select the "BackEnd" Project.
 
@@ -82,7 +98,6 @@ Pressing F10 we can debug step-by-step until line 32, where we can see the gener
 
 You can stop debugging now.
 
-
 Congratulations! Now you are ready to add more features into the app using GitHub Copilot.
 
 ### 🗒️ Step 2: Get familiarized with GitHub Copilot Slash Commands
@@ -94,7 +109,6 @@ Open the file `Program.cs` in the BackEnd project. The file is in the following 
 Now let's use a slash command, in GitHub Copilot to understand a piece of code. Select lines 22-35, press `CTRL + I` to open the inline chat, and type `/explain`.
 
 ![Use slash command to explain a piece of code](./images/011SlashCommandExplain.gif)
-
 
 Based on your version of GitHub Copilot you will see either an inline response or an update in the Chat Panel. GitHub Copilot will create a detailed explanation of the selected code. A summarized version will be like this one:
 
@@ -218,6 +232,9 @@ Both tests running should be like these ones:
 
 🚀 Congratulations, through the exercise, you haven't only used GitHub Copilot  to generate code but also done it in an interactive and fun way! You can use GitHub Copilot to not only generate code, but write documentation, test your applications and more.
 
+### ✨ Bonus: Add new capabilities with GitHub Copilot Edits
+
+Let's use **Copilot Edits** to start an AI-powered code editing session and iterate quickly on code changes across multiple files by using natural language. Copilot Edits applies the edits directly in the editor, where you can review them in-place, with the full context of the surrounding code.
 
 ## Legal Notices
 
