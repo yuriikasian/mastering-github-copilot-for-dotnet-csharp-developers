@@ -236,6 +236,25 @@ Both tests running should be like these ones:
 
 Let's use **Copilot Edits** to start an AI-powered code editing session and iterate quickly on code changes across multiple files by using natural language. Copilot Edits applies the edits directly in the editor, where you can review them in-place, with the full context of the surrounding code.
 
+Let's add some new functionality so the user can enter the city they want to search for and call our new API.
+
+1. Open the **Edits** mode window in GitHub Copilot Chat
+
+![Selecing **Edits** mode](./images/OpenEditsWindows.png)
+
+2. Select the **+Add Files...** buttton from the Edits window and add **FetchData.razor** and **WeatherForecastClient.cs**.
+3. Enter into the chat: `Update the user interface to ask the user the city they want the weather for, use the forecast client to call the new endpoint for the city, and update the table to display the city as well.
+4. Select the **Send** button and now Edits will generate an iteration plan for the changes. 
+5. Review the edits and hit **Accept** in the edits window to accept all changes to files.
+6. Run the application
+
+> Note: If the application doesn't run or it doesn't call the new endpoint, validate the changes in the files changed and ensure the endpoint is being called correctly.
+
+![Image of the weather page with  city entry](./images/WeatherWithEdits.png)
+
+From here, you can continue to iterate and ask questions about styling or other pieces of functionality to add to the application.
+
+
 ## Legal Notices
 
 Microsoft and any contributors grant you a license to the Microsoft documentation and other content
