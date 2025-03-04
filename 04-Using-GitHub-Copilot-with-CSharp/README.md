@@ -65,8 +65,7 @@ From here, you can click on files to navigate to them and you can ask follow up 
 
 ### 🚀 Step 1: Run the projects
 
-Now that we have have context of what is in the project, let's run it and see it in action.
-
+Now that we have context of what is in the project, let's run it and see it in action.
 In order to run the BackEnd project, go to the "Run and Debug" panel, and select the "BackEnd" Project.
 
 ![open program.cs in the BackEnd project](./images/006RunBackEndProject.png)
@@ -240,9 +239,8 @@ Let's add some new functionality so the user can enter the city they want to sea
 
 1. Open the **Edits** mode window in GitHub Copilot Chat
 
-![Selecing **Edits** mode](./images/OpenEditsWindows.png)
-
-2. Select the **+Add Files...** buttton from the Edits window and add **FetchData.razor** and **WeatherForecastClient.cs**.
+![Selecting **Edits** mode](./images/OpenEditsWindows.png)
+2. Select the **+Add Files...** button from the Edits window and add **FetchData.razor** and **WeatherForecastClient.cs**.
 3. Enter into the chat: `Update the user interface to ask the user the city they want the weather for, use the forecast client to call the new endpoint for the city, and update the table to display the city as well.
 4. Select the **Send** button and now Edits will generate an iteration plan for the changes. 
 5. Review the edits and hit **Accept** in the edits window to accept all changes to files.
