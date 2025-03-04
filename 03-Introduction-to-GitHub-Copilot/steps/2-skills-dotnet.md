@@ -6,16 +6,20 @@ GitHub Copilot provides suggestions for numerous languages and a wide variety of
 
 Let's try this out utilizing C# for Copilot.
 
+> **Note**:
+> If you closed the Codespace from above, please open it back up or create a new Codespace.
+
 ### ⌨️ Activity: Add a C# file and start writing code
 
 > **Note**:
-> If you closed the Codespace from above, please open it back up or create a new Codespace.
+> Make sure to open the **Solution Explorer** to see an organized view to easily add new projects and run them..
 
 1. Create a new .NET project by using the `.NET: New Project...` command and selecting `Console App`. 
 1. Select the **code** folder and name the project **Skills**.
 1. Open `Program.cs`
 1. Verify your new file looks like:
    ![VS code with a new Program.cs](./img/2-skills-dotnet-0.png)
+
 1. In the `Program.cs` file, remove any code and then type the following function header.
 
    ```csharp
@@ -30,23 +34,14 @@ Let's try this out utilizing C# for Copilot.
 
 ### ⌨️ Activity: Push code to your repository from the codespace
 
-1. Use the VS Code terminal to add all files to the repository:
+Let's use GitHub Copilot to summarize our changes and then commit the code. 
 
-   ```
-   git add -A
-   ```
+1. Open the **Source Control** tab
+2. Tap on the ✨ button in the **Message** entry for Copilot to generate your message.
 
-2. Next from the VS Code terminal stage and commit the changes to the repository:
+![Commit tab open to generate message with Copilot](img/2-skills-commit.png)
 
-   ```
-   git commit -m "Copilot first commit"
-   ```
-
-3. Finally from the VS Code terminal push to code to the repository:
-
-   ```
-   git push
-   ```
+3. Click the **Commit** button.
 
 
 Head to [Part 3 of the Exercise](./3-copilot-hub.md)

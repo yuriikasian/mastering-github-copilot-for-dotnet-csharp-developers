@@ -28,23 +28,14 @@ Keep in mind that as you continue to use copilot, you may not want some of the s
 
 ### ⌨️ Activity: Push code to your repository from the codespace
 
-1. Use the VS Code terminal to add the `Member.cs` file to the repository:
+Let's use GitHub Copilot to summarize our changes and then commit the code. 
 
-   ```
-   git add Member.cs
-   ```
+1. Open the **Source Control** tab
+2. Tap on the ✨ button in the **Message** entry for Copilot to generate your message.
 
-2. Next from the VS Code terminal stage and commit the changes to the repository:
+![Commit tab open to generate message with Copilot](img/2-skills-commit.png)
 
-   ```
-   git commit -m "Copilot second commit"
-   ```
-
-3. Finally from the VS Code terminal push to code to the repository:
-
-   ```
-   git push
-   ```
+3. Click the **Commit** button.
 
 
 Head to [Part 4 of the Exercise](./4-copilot-comment.md)
