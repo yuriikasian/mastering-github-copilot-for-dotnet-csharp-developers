@@ -4,39 +4,39 @@ Este módulo es una continuación del módulo 1 y proporciona una guía paso a p
 
 Destaca un enfoque para integrar sin problemas GitHub Copilot para Azure en tu flujo de trabajo de desarrollo y despliegue.
 
-## Prerrequisitos
+## Requisitos previos
 
 Completar [Módulo 1 - Introducción al uso de GitHub Copilot para Azure](./01-Getting-Started-with-GitHub-Copilot-for-Azure.md)
 
-## Crear y desplegar un sitio web usando GitHub Copilot para Azure Preview
+## Crear y desplegar un sitio web utilizando GitHub Copilot para Azure Preview
 
 1. Crea una nueva carpeta en tu computadora local donde puedas clonar localmente un repositorio de GitHub.
     1. En VS Code, haz clic en **Archivo**, luego en "Abrir carpeta".
-    1. En el cuadro de diálogo **Abrir carpeta**, haz clic en **Nueva carpeta**, asígnale un nombre, selecciónala y luego haz clic en **Seleccionar carpeta**.
+    1. En el cuadro de diálogo **Abrir carpeta**, haz clic en **Nueva carpeta**, dale un nombre, selecciónala y luego haz clic en **Seleccionar carpeta**.
 
 1. VS Code te preguntará **¿Confías en los autores de los archivos en esta carpeta?**
     1. Haz clic en **Sí, confío en los autores**.
 
-1. En Visual Studio Code, selecciona **Ver** > **Terminal**. En el panel del terminal, ve a la nueva carpeta.
+1. En Visual Studio Code, selecciona **Ver** > **Terminal**. En el panel del terminal, navega a la nueva carpeta.
 
-1. En la barra de estado, selecciona el ícono de **Chat** (GitHub) para abrir el panel de chat.
+1. En la barra de estado, selecciona el icono de **Chat** (GitHub) para abrir el panel de chat.
 
-1. Inicia una nueva sesión de chat seleccionando el ícono de más (**+**) en la barra de título del panel.
+1. Inicia una nueva sesión de chat seleccionando el icono de más (**+**) en la barra de título del panel.
 
-   ![Captura de pantalla que muestra el panel de chat de GitHub Copilot](../../../06-Using-GitHub-Copilot-for-Azure-to-Deploy-to-Cloud/images/mod2-CopilotChat.png "Inicia una nueva sesión de chat")
+   ![Captura de pantalla que muestra el panel de chat de GitHub Copilot](../../../06-Using-GitHub-Copilot-for-Azure-to-Deploy-to-Cloud/images/mod2-CopilotChat.png "Iniciar una nueva sesión de chat")
 
-> Si cerraste el chat de GitHub Copilot después del último módulo, haz clic en el ícono de GitHub en la barra de estado (parte inferior derecha de tu pantalla de VS Code) y selecciona **"GitHub Copilot Chat"** en el menú de opciones.
+> Si cerraste el chat de GitHub Copilot después del último módulo, haz clic en el icono de GitHub en la barra de estado, en la parte inferior derecha de la pantalla de VS Code. Luego selecciona **"GitHub Copilot Chat"** en el menú de opciones.
 >
-> ![Captura de pantalla que muestra el panel de chat de GitHub Copilot](../../../06-Using-GitHub-Copilot-for-Azure-to-Deploy-to-Cloud/images/mod2-CopilotChat-2.png "Inicia una nueva sesión de chat")
+> ![Captura de pantalla que muestra el panel de chat de GitHub Copilot](../../../06-Using-GitHub-Copilot-for-Azure-to-Deploy-to-Cloud/images/mod2-CopilotChat-2.png "Iniciar una nueva sesión de chat")
 
-6. En el cuadro de texto del chat, escribe el siguiente mensaje. Luego selecciona **Enviar** (ícono de avión de papel) o presiona Enter en tu teclado.
+6. En el cuadro de texto del chat, escribe el siguiente mensaje. Luego selecciona **Enviar** (icono de avión de papel) o presiona Enter en tu teclado.
 
    ```prompt
    @azure can you help me deploy a C# api with mongodb and a web front end?
    ```
 
-    > **IMPORTANTE**
-    La redacción exacta de la respuesta será diferente cada vez que GitHub Copilot para Azure responda, debido a cómo los modelos de lenguaje generan respuestas.
+    > **IMPORTANTE**  
+El texto exacto de la respuesta puede variar cada vez que GitHub Copilot para Azure responde, debido a cómo los modelos de lenguaje generan las respuestas.
 
    Después de un momento, es probable que GitHub Copilot para Azure sugiera un comando `azd` template to use.  Or in some cases will provide an answer like the following:
 
@@ -52,7 +52,7 @@ Completar [Módulo 1 - Introducción al uso de GitHub Copilot para Azure](./01-G
 
     ![Screenshot that shows the GitHub Copilot chat pane](../../../06-Using-GitHub-Copilot-for-Azure-to-Deploy-to-Cloud/images/mod2-CopilotChat-5.png "Screenshot that shows the Visual Studio Code terminal after insertion of a code-fenced command.")
 
-1. Before you run the `azd init`. Es posible que tengas preguntas sobre cómo afecta esto a tu computadora local y a tu suscripción de Azure.
+1. Before you run the `azd init`. Podrías tener preguntas sobre cómo afecta a tu computadora local y a tu suscripción de Azure.
 
    Usa el siguiente mensaje:
 
@@ -60,9 +60,9 @@ Completar [Módulo 1 - Introducción al uso de GitHub Copilot para Azure](./01-G
    @azure Before I execute azd init, what does it do?
    ```
 
-   Podrías ver una respuesta similar a la siguiente captura de pantalla.
+   Podrías ver una respuesta similar a la captura de pantalla siguiente.
 
-   ![Captura de pantalla que muestra el panel de chat de GitHub Copilot](../../../06-Using-GitHub-Copilot-for-Azure-to-Deploy-to-Cloud/images/mod2-CopilotChat-6.png "Captura de pantalla que muestra una respuesta de GitHub Copilot para Azure con una explicación sobre lo que hace el comando de inicialización.")
+   ![Captura de pantalla que muestra el panel de chat de GitHub Copilot](../../../06-Using-GitHub-Copilot-for-Azure-to-Deploy-to-Cloud/images/mod2-CopilotChat-6.png "Captura de pantalla que muestra una respuesta de GitHub Copilot para Azure explicando lo que hace el comando de inicialización.")
 
 1. Usa el siguiente mensaje para aprender más sobre la plantilla `azd`:
 
@@ -70,9 +70,9 @@ Completar [Módulo 1 - Introducción al uso de GitHub Copilot para Azure](./01-G
    @azure What resources are created with this template?
    ```
 
-   Podrías ver una respuesta similar a la siguiente captura de pantalla.
+   Podrías ver una respuesta similar a la captura de pantalla siguiente.
 
-    ![Captura de pantalla que muestra el panel de chat de GitHub Copilot](../../../06-Using-GitHub-Copilot-for-Azure-to-Deploy-to-Cloud/images/mod2-CopilotChat-7.png "Captura de pantalla que muestra una respuesta de GitHub Copilot para Azure con una explicación de los recursos creados por la plantilla sugerida.")
+    ![Captura de pantalla que muestra el panel de chat de GitHub Copilot](../../../06-Using-GitHub-Copilot-for-Azure-to-Deploy-to-Cloud/images/mod2-CopilotChat-7.png "Captura de pantalla que muestra una respuesta de GitHub Copilot para Azure explicando los recursos creados por la plantilla sugerida.")
 
 1. Haz preguntas sobre los servicios que utiliza la plantilla con un mensaje como:
 
@@ -80,21 +80,21 @@ Completar [Módulo 1 - Introducción al uso de GitHub Copilot para Azure](./01-G
    @azure What are the capabilities of Azure App Service?
    ```
 
-   Podrías ver una respuesta similar a la siguiente captura de pantalla.
+   Podrías ver una respuesta similar a la captura de pantalla siguiente.
 
-    ![Captura de pantalla que muestra el panel de chat de GitHub Copilot](../../../06-Using-GitHub-Copilot-for-Azure-to-Deploy-to-Cloud/images/mod2-CopilotChat-8.png "Captura de pantalla que muestra una respuesta de GitHub Copilot para Azure con una explicación sobre las capacidades del Servicio de Aplicaciones de Azure.")
+    ![Captura de pantalla que muestra el panel de chat de GitHub Copilot](../../../06-Using-GitHub-Copilot-for-Azure-to-Deploy-to-Cloud/images/mod2-CopilotChat-8.png "Captura de pantalla que muestra una respuesta de GitHub Copilot para Azure explicando las capacidades del Azure App Service.")
 
 1. Cuando estés satisfecho, ejecuta la herramienta `azd init` command in the terminal. Answer its prompts. If you're unsure what to answer for a prompt, ask GitHub Copilot for Azure for help.
 
-1. Before you can continue, you must authenticate the `azd` ejecutando el siguiente comando en el terminal:
+1. Before you can continue, you must authenticate the `azd` escribiendo el siguiente comando en el terminal:
 
     ```cmd
     azd auth login
     ```
 
-    1. Esto abrirá un navegador que requerirá que te autentiques en Azure. Selecciona las mismas credenciales que antes.
+    1. Esto abrirá un navegador que te pedirá autenticarte en Azure. Selecciona las mismas credenciales que usaste antes.
 
-1. Una vez que el nuevo proyecto esté inicializado y te hayas autenticado en Azure, utiliza el comando **azd up** para desplegar la aplicación en tu suscripción. En el terminal, ejecuta el comando según las instrucciones de la respuesta del mensaje original.
+1. Una vez que el nuevo proyecto esté inicializado y que te hayas autenticado en Azure, utiliza el comando **azd up** para desplegar la aplicación en tu suscripción. En el terminal, ejecuta el comando según las instrucciones de la respuesta del mensaje original.
 
     ```
     azd up
@@ -108,11 +108,11 @@ Completar [Módulo 1 - Introducción al uso de GitHub Copilot para Azure](./01-G
     @azure azd up is asking me what location I want to deploy the website into. How should I respond?
     ```
 
-    Podrías ver una respuesta similar a la siguiente captura de pantalla.
+    Podrías ver una respuesta similar a la captura de pantalla siguiente.
 
-    ![Captura de pantalla que muestra el panel de chat de GitHub Copilot](../../../06-Using-GitHub-Copilot-for-Azure-to-Deploy-to-Cloud/images/mod2-CopilotChat-9.png "Captura de pantalla que muestra una respuesta de GitHub Copilot para Azure con una explicación sobre qué son las ubicaciones de Azure y cómo elegir una.")
+    ![Captura de pantalla que muestra el panel de chat de GitHub Copilot](../../../06-Using-GitHub-Copilot-for-Azure-to-Deploy-to-Cloud/images/mod2-CopilotChat-9.png "Captura de pantalla que muestra una respuesta de GitHub Copilot para Azure explicando qué son las ubicaciones de Azure y cómo elegir una.")
 
-5. Continúa respondiendo las indicaciones de `azd up`. Ask GitHub Copilot for Azure questions as needed.
+5. Continúa respondiendo a las indicaciones de `azd up`. Ask GitHub Copilot for Azure questions as needed.
 
     1. When asked the location select **Canada East (canadaeast)**.
 
@@ -127,4 +127,4 @@ Completar [Módulo 1 - Introducción al uso de GitHub Copilot para Azure](./01-G
 1. When you are done run `azd down` para eliminar todos los recursos.
 
 **Descargo de responsabilidad**:  
-Este documento ha sido traducido utilizando servicios de traducción automática basados en inteligencia artificial. Si bien nos esforzamos por lograr precisión, tenga en cuenta que las traducciones automatizadas pueden contener errores o imprecisiones. El documento original en su idioma nativo debe considerarse la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No nos hacemos responsables de malentendidos o interpretaciones erróneas que puedan surgir del uso de esta traducción.
+Este documento ha sido traducido utilizando servicios de traducción automática basados en inteligencia artificial. Si bien nos esforzamos por garantizar la precisión, tenga en cuenta que las traducciones automáticas pueden contener errores o imprecisiones. El documento original en su idioma nativo debe considerarse la fuente autorizada. Para información crítica, se recomienda una traducción profesional realizada por humanos. No nos hacemos responsables de malentendidos o interpretaciones erróneas que puedan surgir del uso de esta traducción.

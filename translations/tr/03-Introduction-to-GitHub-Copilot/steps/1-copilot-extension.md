@@ -1,27 +1,27 @@
 ## Adım 1: VS Code ile Codespaces Kullanarak Copilot'tan Yararlanın
 
-_"GitHub Copilot ve VS Code ile AI Destekli Kod Önerileriyle Geliştirme"ye hoş geldiniz! :wave:_
+_"GitHub Copilot ve VS Code ile Yapay Zeka Destekli Kod Önerileriyle Geliştirin" kursuna hoş geldiniz! :wave:_
 
-GitHub Copilot, kod yazmayı daha hızlı ve kolay hale getiren bir AI çift programcısıdır. Yorumlardan ve koddan bağlam çıkararak anında tek satırlık veya tüm fonksiyonları önerir. GitHub Copilot, OpenAI tarafından oluşturulan bir üretken önceden eğitilmiş dil modeli olan OpenAI Codex tarafından desteklenmektedir.
+GitHub Copilot, kod yazma sürecinizi hızlandıran ve iş yükünüzü azaltan bir yapay zeka eş programcıdır. Yorumlar ve kodlardan bağlam alarak, bireysel satırları ve tüm fonksiyonları anında önerebilir. GitHub Copilot, OpenAI tarafından oluşturulan ve önceden eğitilmiş bir dil modeli olan OpenAI Codex tarafından desteklenmektedir.
 
-**Copilot, VS Code, Visual Studio, JetBrains IDE ve Neovim dahil olmak üzere birçok kod editörüyle çalışır.**
+**Copilot, VS Code, Visual Studio, JetBrains IDE ve Neovim dahil olmak üzere birçok kod düzenleyiciyle çalışır.**
 
-Ayrıca, GitHub Copilot, herkese açık depolarda yer alan tüm diller üzerinde eğitilmiştir. Her dil için aldığınız önerilerin kalitesi, o dil için kullanılan eğitim verilerinin hacmi ve çeşitliliğine bağlı olabilir.
+Ayrıca, GitHub Copilot, genel depolarda yer alan tüm diller üzerinde eğitilmiştir. Her dil için aldığınız önerilerin kalitesi, o dil için eğitim verilerinin hacmi ve çeşitliliğine bağlı olabilir.
 
-Copilot'ı bir Codespace içinde kullanmak, GitHub'ın [Ortak Çalışma Kodlama](https://github.com/features#features-collaboration) araçlarıyla çalışmaya başlamanın ne kadar kolay olduğunu gösterir.
+Codespace içinde Copilot kullanmak, GitHub'ın [Collaborative Coding](https://github.com/features#features-collaboration) araçlarıyla çalışmaya başlamanın ne kadar kolay olduğunu gösterir.
 
 > **Not**
-> Bu beceri alıştırması, GitHub Codespace'ten yararlanmayı ele alacaktır. Bu alıştırmaya geçmeden önce GitHub becerisi olan [Codespaces](https://github.com/skills/code-with-codespaces)'i tamamlamanız önerilir.
+> Bu beceri egzersizi, GitHub Codespace'ten yararlanmayı vurgulayacaktır. Bu egzersize devam etmeden önce GitHub becerisi olan [Codespaces](https://github.com/skills/code-with-codespaces)'i tamamlamanız önerilir.
 
-### ⌨️ Aktivite: Bir Codespace İçinde Copilot'ı Etkinleştirin
+### ⌨️ Aktivite: Codespace İçinde Copilot'u Etkinleştirin
 
 [![GitHub Codespaces'te Aç](https://github.com/codespaces/badge.svg)](https://codespaces.new/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?devcontainer_path=.devcontainer%2Fintroduction%2Fdevcontainer.json)
 
-**Bu talimatları referans olarak açık tutabilmeniz için başka bir tarayıcı sekmesi açarak aşağıdaki aktiviteleri gerçekleştirmenizi öneririz.**
+**Bu talimatları referans olarak açık tutabilmek için aşağıdaki aktiviteleri çalışırken başka bir tarayıcı sekmesi açmanızı öneririz.**
 
-Bir depoda bir codespace açmadan önce, bir geliştirme konteyneri oluşturabilir ve codespace'inizde kullanılacak veya yüklenecek belirli uzantıları ya da yapılandırmaları tanımlayabilirsiniz. Hadi bu geliştirme konteynerini oluşturalım ve copilot'ı uzantı listesine ekleyelim.
+Bir depoda bir codespace açmadan önce, bir geliştirme konteyneri oluşturabilir ve bu codespace içinde kullanılacak veya yüklenecek belirli uzantıları ya da yapılandırmaları tanımlayabilirsiniz. Şimdi bu geliştirme konteynerini oluşturalım ve copilot'u uzantılar listesine ekleyelim.
 
-1. **.devcontainer/introduction/devcontainer.json** dosyasının içeriğinde aşağıdaki içeriği not alın:
+1. **.devcontainer/introduction/devcontainer.json** dosyasının içeriğinde aşağıdaki metni not edin:
    ```
    {
        // Name this configuration
@@ -37,21 +37,21 @@ Bir depoda bir codespace açmadan önce, bir geliştirme konteyneri oluşturabil
    }
    ```
 
-Herhangi bir sorunla karşılaşırsanız, yeni bir codespace oluşturabilirsiniz:
+Herhangi bir sorun yaşarsanız, yeni bir codespace oluşturabilirsiniz:
 
-1. Depo ana sayfanıza geri dönmek için ekranın sol üst köşesinde bulunan **Code** sekmesine tıklayın.
-1. Sayfanın ortasında bulunan **Code** butonuna tıklayın.
-1. Açılan kutucuktaki **Codespaces** sekmesine tıklayın.
-1. **Create codespace on main** butonuna tıklayın ve Introduction to Copilot'u seçin.
+1. Depo ana sayfasına geri dönmek için ekranın sol üst köşesindeki **Code** sekmesine tıklayın.
+1. Sayfanın ortasında bulunan **Code** düğmesine tıklayın.
+1. Açılan kutuda **Codespaces** sekmesine tıklayın.
+1. **Create codespace on main** düğmesine tıklayın ve "Introduction to Copilot" seçeneğini belirleyin.
 
-   **Codespace'in kendisini başlatması için yaklaşık 2 dakika bekleyin.**
+   **Codespace'in kendini başlatması için yaklaşık 2 dakika bekleyin.**
 
-1. Codespace'inizin çalıştığını doğrulayın. Tarayıcı, bir VS Code web tabanlı editör içermeli ve aşağıdaki gibi bir terminal mevcut olmalıdır:
-   ![Ekran Görüntüsü 2023-03-09 09 09 07 AM](../../../../translated_images/1-skills-0.1c00cff1473d07e185dbb26d6fb869697436c85fbfb7166f9cfc394f08e77776.tr.png)
-1. `copilot` uzantısı, VS Code uzantı listesinde görünmelidir. Uzantılar kenar çubuğu sekmesine tıklayın. Aşağıdaki gibi bir görüntü görmelisiniz:
-   ![Ekran Görüntüsü 2023-03-09 09 04 13 AM](../../../../translated_images/1-skills-1.86911486a2a6c46d5195718017ae3e4e45be73c900914136d779693e75394d3c.tr.png)
+1. Codespace'in çalıştığını doğrulayın. Tarayıcı, bir VS Code web tabanlı düzenleyici ve aşağıdaki gibi bir terminal içermelidir:
+   ![Ekran Görüntüsü 2023-03-09 Saat 09 09 07](../../../../03-Introduction-to-GitHub-Copilot/steps/img/1-skills-0.png)
+1. `copilot` uzantısının VS Code uzantı listesinde göründüğünden emin olun. Uzantılar kenar çubuğu sekmesine tıklayın. Aşağıdakine benzer bir görünüm görmelisiniz:
+   ![Ekran Görüntüsü 2023-03-09 Saat 09 04 13](../../../../03-Introduction-to-GitHub-Copilot/steps/img/1-skills-1.png)
 
-[Alıştırmanın 2. Bölümüne Geçin](./2-skills-dotnet.md)
+[Egzersizin 2. Bölümüne Geçin](./2-skills-dotnet.md)
 
 **Feragatname**:  
-Bu belge, yapay zeka tabanlı makine çeviri hizmetleri kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlıklar içerebileceğini lütfen unutmayın. Belgenin orijinal dili, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan herhangi bir yanlış anlama veya yanlış yorumlama durumunda sorumluluk kabul etmiyoruz.
+Bu belge, makine tabanlı yapay zeka çeviri hizmetleri kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlıklar içerebileceğini lütfen unutmayın. Orijinal belgenin kendi dilindeki hali, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan yanlış anlamalar veya yanlış yorumlamalardan sorumlu değiliz.

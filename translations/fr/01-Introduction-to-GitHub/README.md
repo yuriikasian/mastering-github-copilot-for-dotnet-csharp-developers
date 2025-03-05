@@ -2,24 +2,24 @@
 
 # Introduction à GitHub
 
-Ce module d'apprentissage explore les aspects fondamentaux de GitHub, une plateforme de développement alimentée par l'IA qui facilite le développement collaboratif de logiciels. Destiné aux nouveaux développeurs, aux débutants sur GitHub et aux étudiants, le module offre une expérience pratique au sein d'un dépôt GitHub, fournissant une vue d'ensemble complète des fonctionnalités essentielles.
+Ce module d'apprentissage explore les aspects fondamentaux de GitHub, une plateforme de développement alimentée par l'IA qui facilite le développement logiciel collaboratif. Destiné aux nouveaux développeurs, aux débutants sur GitHub et aux étudiants, ce module offre une expérience pratique au sein d’un dépôt GitHub, fournissant un aperçu complet des fonctionnalités essentielles.
 
-Les gens utilisent GitHub tous les jours pour créer certaines des technologies les plus avancées de la planète. Que vous visualisiez des données ou développiez un nouveau jeu, il existe toute une communauté et un ensemble d'outils sur GitHub qui peuvent vous aider à le faire encore mieux.
+Les gens utilisent GitHub tous les jours pour créer certaines des technologies les plus avancées au monde. Que vous visualisiez des données ou développiez un nouveau jeu, il existe une communauté et un ensemble d'outils sur GitHub qui peuvent vous aider à faire encore mieux.
 
 </header>
 
-- **Pour qui est-ce destiné** : Nouveaux développeurs, nouveaux utilisateurs de GitHub, et étudiants.
+- **Pour qui est-ce fait** : Nouveaux développeurs, nouveaux utilisateurs de GitHub et étudiants.
 - **Ce que vous apprendrez** : Nous introduirons les dépôts, les branches, les commits et les pull requests.
-- **Ce que vous construirez** : Nous créerons un court fichier Markdown que vous pourrez utiliser comme [README de profil](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme).
+- **Ce que vous construirez** : Nous créerons un court fichier Markdown que vous pourrez utiliser comme votre [README de profil](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme).
 - **Prérequis** : Aucun. Ce cours est une excellente introduction pour votre premier jour sur GitHub.
 - **Durée** : Ce cours prend moins d'une heure à compléter.
 
 Ce module vous aidera à :
 
 1. Identifier les fonctionnalités fondamentales de GitHub.
-2. Apprendre les meilleures pratiques de gestion des dépôts.
-3. Comprendre le flux GitHub, y compris les branches, les commits et les pull requests.
-4. Explorer les fonctionnalités collaboratives de GitHub en examinant les issues et les discussions.
+2. Apprendre les bonnes pratiques de gestion des dépôts.
+3. Comprendre le flux GitHub, incluant les branches, commits et pull requests.
+4. Explorer les fonctionnalités collaboratives de GitHub en examinant les issues et discussions.
 5. Reconnaître comment gérer vos notifications et abonnements GitHub.
 
  
@@ -32,7 +32,7 @@ Ce module vous aidera à :
  
    
 
-### Comment démarrer ce cours
+### Comment commencer ce cours
 
 <!-- Pour démarrer le cours, exécutez en JavaScript :
 'https://github.com/new?' + new URLSearchParams({
@@ -52,13 +52,13 @@ Ce module vous aidera à :
    - Pour le propriétaire, choisissez votre compte personnel ou une organisation pour héberger le dépôt.
    - Nous recommandons de créer un dépôt public, car les dépôts privés [utiliseront des minutes Actions](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions?WT.mc_id=academic-113596-abartolo).
    - Faites défiler vers le bas et cliquez sur le bouton **Create repository** en bas du formulaire.
-3. Une fois votre nouveau dépôt créé, attendez environ 20 secondes, puis actualisez la page. Suivez les instructions étape par étape dans le README du nouveau dépôt.
+3. Une fois que votre nouveau dépôt est créé, attendez environ 20 secondes, puis actualisez la page. Suivez les instructions étape par étape dans le README du nouveau dépôt.
 
 <footer>
 
 <!--
-  <<< Notes de l'auteur : Pied de page >>>
-  Ajoutez un lien pour obtenir de l'aide, la page de statut GitHub, le code de conduite, le lien de licence.
+  <<< Author notes: Footer >>>
+  Ajouter un lien pour obtenir de l'aide, la page de statut GitHub, le code de conduite, le lien de licence.
 -->
 
 ---
@@ -66,4 +66,4 @@ Ce module vous aidera à :
 Obtenez de l'aide : [Publiez sur notre forum de discussion](https://github.com/orgs/skills/discussions/categories/introduction-to-github) • [Consultez la page de statut GitHub](https://www.githubstatus.com/)
 
 **Avertissement** :  
-Ce document a été traduit à l'aide de services de traduction basés sur l'intelligence artificielle. Bien que nous nous efforcions d'assurer l'exactitude, veuillez noter que les traductions automatiques peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue d'origine doit être considéré comme la source faisant autorité. Pour des informations cruciales, il est recommandé de recourir à une traduction humaine professionnelle. Nous déclinons toute responsabilité en cas de malentendus ou de mauvaises interprétations résultant de l'utilisation de cette traduction.
+Ce document a été traduit à l'aide de services de traduction automatisée basés sur l'IA. Bien que nous nous efforcions d'assurer l'exactitude, veuillez noter que les traductions automatisées peuvent contenir des erreurs ou des inexactitudes. Le document original dans sa langue d'origine doit être considéré comme la source faisant autorité. Pour des informations critiques, il est recommandé de faire appel à une traduction humaine professionnelle. Nous déclinons toute responsabilité en cas de malentendus ou de mauvaises interprétations résultant de l'utilisation de cette traduction.

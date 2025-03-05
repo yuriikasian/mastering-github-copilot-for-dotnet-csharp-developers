@@ -1,40 +1,40 @@
 ## Güvenlik
 
-Microsoft, yazılım ürünlerimizin ve hizmetlerimizin güvenliğini ciddiye alır. Bu, [Microsoft](https://github.com/Microsoft), [Azure](https://github.com/Azure), [DotNet](https://github.com/dotnet), [AspNet](https://github.com/aspnet) ve [Xamarin](https://github.com/xamarin) gibi GitHub organizasyonlarımız aracılığıyla yönetilen tüm kaynak kodu depolarını da kapsar.
+Microsoft, yazılım ürünlerimizin ve hizmetlerimizin güvenliğini ciddiye alır. Bu, [Microsoft](https://github.com/Microsoft), [Azure](https://github.com/Azure), [DotNet](https://github.com/dotnet), [AspNet](https://github.com/aspnet) ve [Xamarin](https://github.com/xamarin) gibi GitHub organizasyonlarımız tarafından yönetilen tüm kaynak kodu depolarını da kapsar.
 
-Eğer [Microsoft'un güvenlik açığı tanımı](https://aka.ms/security.md/definition) ile uyumlu bir güvenlik açığı bulduğunuza inanıyorsanız, lütfen aşağıda açıklandığı şekilde bize bildirin.
+Eğer [Microsoft'un güvenlik açığı tanımı](https://aka.ms/security.md/definition) ile uyumlu bir güvenlik açığı bulduğunuza inanıyorsanız, lütfen aşağıda açıklandığı şekilde bunu bize bildirin.
 
 ## Güvenlik Sorunlarını Bildirme
 
-**Lütfen güvenlik açıklarını GitHub'daki herkese açık sorunlar üzerinden bildirmeyin.**
+**Lütfen güvenlik açıklarını genel GitHub sorunları üzerinden bildirmeyin.**
 
-Bunun yerine, lütfen Microsoft Güvenlik Yanıt Merkezi'ne (MSRC) [https://msrc.microsoft.com/create-report](https://aka.ms/security.md/msrc/create-report) adresinden bildirin.
+Bunun yerine, Microsoft Güvenlik Yanıt Merkezi'ne (MSRC) [https://msrc.microsoft.com/create-report](https://aka.ms/security.md/msrc/create-report) adresinden bildirimde bulunun.
 
-Eğer oturum açmadan göndermeyi tercih ederseniz, [secure@microsoft.com](mailto:secure@microsoft.com) adresine e-posta gönderebilirsiniz. Mümkünse, mesajınızı PGP anahtarımızla şifreleyin; bunu [Microsoft Güvenlik Yanıt Merkezi PGP Anahtarı sayfasından](https://aka.ms/security.md/msrc/pgp) indirebilirsiniz.
+Eğer giriş yapmadan bildirimde bulunmayı tercih ediyorsanız, [secure@microsoft.com](mailto:secure@microsoft.com) adresine e-posta gönderin. Mümkünse, mesajınızı PGP anahtarımızla şifreleyin; bunu [Microsoft Güvenlik Yanıt Merkezi PGP Anahtarı sayfası](https://aka.ms/security.md/msrc/pgp) üzerinden indirebilirsiniz.
 
-24 saat içinde bir yanıt almanız gerekir. Herhangi bir nedenle yanıt almazsanız, orijinal mesajınızı aldığımızdan emin olmak için lütfen e-posta yoluyla takip edin. Daha fazla bilgiye [microsoft.com/msrc](https://www.microsoft.com/msrc) adresinden ulaşabilirsiniz.
+24 saat içinde bir yanıt almanız gerekir. Herhangi bir nedenle yanıt alamazsanız, orijinal mesajınızın bize ulaştığından emin olmak için e-posta yoluyla tekrar iletişime geçin. Daha fazla bilgiye [microsoft.com/msrc](https://www.microsoft.com/msrc) adresinden ulaşabilirsiniz.
 
-Lütfen aşağıda listelenen bilgileri (mümkün olduğunca) ekleyerek sorunun doğasını ve kapsamını daha iyi anlamamıza yardımcı olun:
+Lütfen aşağıda listelenen bilgileri (sağlayabildiğiniz kadarını) ekleyin, böylece olası sorunun niteliğini ve kapsamını daha iyi anlayabiliriz:
 
-  * Sorunun türü (örneğin, tampon taşması, SQL enjeksiyonu, çapraz site betikleme, vb.)
-  * Sorunun ortaya çıktığı kaynak dosyalarının tam yolları
-  * Etkilenen kaynak kodunun konumu (etiket/dal/commit veya doğrudan URL)
-  * Sorunu yeniden oluşturmak için gerekli özel yapılandırmalar
-  * Sorunu yeniden oluşturmak için adım adım talimatlar
-  * Kanıt niteliğinde konsept ya da istismar kodu (mümkünse)
-  * Sorunun etkisi, bir saldırganın bu sorunu nasıl istismar edebileceği dahil
+  * Sorunun türü (ör. bellek taşması, SQL enjeksiyonu, çapraz site betikleme vb.)
+  * Sorunun ortaya çıktığı kaynak dosyaların tam yolları
+  * Etkilenen kaynak kodunun yeri (etiket/dal/commit veya doğrudan URL)
+  * Sorunun yeniden oluşturulması için gereken özel yapılandırmalar
+  * Sorunun yeniden oluşturulması için adım adım talimatlar
+  * Kanıt niteliğinde bir konsept veya istismar kodu (mümkünse)
+  * Sorunun etkisi, örneğin bir saldırganın sorunu nasıl istismar edebileceği
 
-Bu bilgiler, raporunuzu daha hızlı değerlendirmemize yardımcı olacaktır.
+Bu bilgiler, raporunuzu daha hızlı bir şekilde değerlendirmemize yardımcı olacaktır.
 
-Bir hata ödülü programı için raporlama yapıyorsanız, daha eksiksiz raporlar daha yüksek ödül miktarına katkıda bulunabilir. Aktif programlarımız hakkında daha fazla bilgi için [Microsoft Hata Ödül Programı](https://aka.ms/security.md/msrc/bounty) sayfamızı ziyaret edin.
+Bir hata ödül programı için raporlama yapıyorsanız, daha ayrıntılı raporlar daha yüksek ödüller almanıza katkıda bulunabilir. Aktif programlarımız hakkında daha fazla bilgi için [Microsoft Hata Ödül Programı](https://aka.ms/security.md/msrc/bounty) sayfasını ziyaret edin.
 
 ## Tercih Edilen Diller
 
-Tüm iletişimlerin İngilizce yapılmasını tercih ediyoruz.
+Tüm iletişimlerin İngilizce olmasını tercih ediyoruz.
 
 ## Politika
 
-Microsoft, [Koordine Edilmiş Güvenlik Açığı Açıklaması](https://aka.ms/security.md/cvd) ilkesini takip eder.
+Microsoft, [Koordine Edilmiş Güvenlik Açığı Açıklama](https://aka.ms/security.md/cvd) ilkesini takip eder.
 
 **Feragatname**:  
-Bu belge, yapay zeka tabanlı makine çeviri hizmetleri kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlıklar içerebileceğini lütfen unutmayın. Orijinal belgenin kendi dilindeki hali, bağlayıcı kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan herhangi bir yanlış anlama veya yanlış yorumlamadan sorumlu değiliz.
+Bu belge, yapay zeka tabanlı makine çeviri hizmetleri kullanılarak çevrilmiştir. Doğruluk için çaba göstersek de, otomatik çevirilerin hata veya yanlışlıklar içerebileceğini lütfen unutmayın. Orijinal belgenin kendi dilindeki hali, yetkili kaynak olarak kabul edilmelidir. Kritik bilgiler için profesyonel insan çevirisi önerilir. Bu çevirinin kullanımından kaynaklanan herhangi bir yanlış anlama veya yanlış yorumlama durumunda sorumluluk kabul edilmez.
