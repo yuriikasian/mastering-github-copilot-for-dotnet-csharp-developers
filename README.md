@@ -15,6 +15,19 @@ To make it easier to revisit this repository in the future, you can also [star (
 
 Below are links to each lesson—feel free to explore and dive into any topic that interests you the most! 
 
+## 🌐 Learn with your own language
+
+| Language             | Code | Link to Translated README                                        | Last Updated |
+|----------------------|------|------------------------------------------------------------------|--------------|
+| Chinese (Simplified) | zh   | [Chinese Translation (Simplified)](./translations/zh/README.md)  | 2025-03-05   |
+| Chinese (Traditional)| tw   | [Chinese Translation (Traditional)](./translations/tw/README.md) | 2025-03-05   |
+| French               | fr   | [French Translation](./translations/fr/README.md)                | 2025-03-05   |
+| Japanese             | ja   | [Japanese Translation](./translations/ja/README.md)              | 2025-03-05   |
+| Korean               | ko   | [Korean Translation](./translations/ko/README.md)                | 2025-03-05   |
+| Portuguese           | pt   | [Portuguese Translation](./translations/pt/README.md)            | 2025-03-05   |
+| Spanish              | es   | [Spanish Translation](./translations/es/README.md)               | 2025-03-05   |
+| Turkish              | tr   | [Turkish Translation](./translations/tr/README.md)               | 2025-03-05   |
+| Vietnamese           | vi   | [Vietnamese Translation](./translations/vi/README.md)            | 2025-03-05   |
 
 ## 🧠 Want to learn more? 
 After completing this course, check out our [GitHub Copilot Learn Collection](https://learn.microsoft.com/collections/kkqrhmxoqn54) to continue leveling up your AI Paired Programming knowledge! 
