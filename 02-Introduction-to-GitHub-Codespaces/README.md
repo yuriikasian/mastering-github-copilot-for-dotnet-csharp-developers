@@ -26,7 +26,7 @@ By the end of this module, you'll be able to:
 3. Define the different customizations you can personalize with GitHub Codespaces.
 
 
-## Prerequisite reading: 
+## Prerequisite reading:
 
 - [Code with GitHub Codespaces](https://learn.microsoft.com/training/modules/code-with-github-codespaces/)
 - What is GitHub Codespaces? (Video playlist below)
