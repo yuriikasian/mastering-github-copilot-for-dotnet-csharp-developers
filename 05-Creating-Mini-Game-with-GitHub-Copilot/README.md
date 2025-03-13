@@ -46,7 +46,7 @@ You have already learned a bit about GitHub Codespaces and GitHub Copilot and ho
    
 ### Creating the game logic
 
-Now that you've verified that Codespaces working with GitHub Copilot, your next step is to develop the logic of the C# minigame with the help of GitHub Copilot based on the following specifications:
+Now that you've verified that Codespaces is working with GitHub Copilot, your next step is to develop the logic of the C# minigame with the help of GitHub Copilot based on the following specifications:
 
 The winner of the game is determined by three simple rules:
 
