@@ -29,4 +29,18 @@ public class Members
         Rol = rol;
         CorreoElectronico = correoElectronico;
     }
+
+        // constructor de copia
+    public Members(Members member)
+    {
+        Nombre = member.Nombre;
+        Rol = member.Rol;
+        CorreoElectronico = member.CorreoElectronico;
+    }
+    // método para comparar dos miembros
+    public bool Equals(Members other)
+    {
+        if (other == null) return false;
+        return Nombre == other.Nombre && Rol == other.Rol && CorreoElectronico == other.CorreoElectronico;
+    }   
 }
